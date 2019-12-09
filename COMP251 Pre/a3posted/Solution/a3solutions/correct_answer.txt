@@ -1,0 +1,72 @@
+test_networkflow_1.sdot
+capacities
+edgesFrom is {d={t=3.0}, t={}, s={b=2.0, a=3.0}, b={d=2.0}, c={t=2.0}, a={d=4.0, c=3.0}}
+
+flow
+edgesFrom is {d={t=3.0}, t={}, b={d=2.0}, s={b=2.0, a=3.0}, c={t=2.0}, a={d=1.0, c=2.0}}
+
+residualCapacities
+edgesFrom is {d={}, t={}, b={}, s={}, c={}, a={d=3.0, c=1.0}}
+
+test_networkflow_2.sdot
+capacities
+edgesFrom is {d={t=2.0, a=5.0}, t={}, s={b=3.0, a=10.0}, b={c=6.0}, c={d=5.0, t=2.0}, a={b=5.0}}
+
+flow
+edgesFrom is {d={t=2.0, a=0.0}, t={}, b={c=4.0}, s={b=3.0, a=1.0}, c={d=2.0, t=2.0}, a={b=1.0}}
+
+residualCapacities
+edgesFrom is {d={a=5.0}, t={}, b={c=2.0}, s={a=9.0}, c={d=3.0}, a={b=4.0}}
+
+test_networkflow_3.sdot
+capacities
+edgesFrom is {f={g=20.0, a=10.0}, g={t=40.0}, d={e=15.0}, t={}, e={g=20.0, b=15.0}, s={b=1.0, a=20.0}, b={c=10.0}, c={f=8.0}, a={d=19.0}}
+
+flow
+edgesFrom is {f={g=1.0, a=0.0}, g={t=16.0}, d={e=15.0}, e={g=15.0, b=0.0}, t={}, b={c=1.0}, s={b=1.0, a=15.0}, c={f=1.0}, a={d=15.0}}
+
+residualCapacities
+edgesFrom is {f={g=19.0, a=10.0}, g={t=24.0}, d={}, e={g=5.0, b=15.0}, t={}, b={c=9.0}, s={a=5.0}, c={f=7.0}, a={d=4.0}}
+
+test_networkflow_4.sdot
+capacities
+edgesFrom is {f={e=8.0, i=7.0}, g={t=15.0}, d={g=6.0, e=10.0}, t={}, e={b=13.0}, s={a=12.0}, b={c=7.0, a=6.0}, c={f=7.0}, a={d=11.0}, h={g=10.0, e=8.0}, i={h=12.0}}
+
+flow
+edgesFrom is {f={e=0.0, i=5.0}, g={t=11.0}, d={g=6.0, e=5.0}, e={b=5.0}, t={}, b={c=5.0, a=0.0}, s={a=11.0}, c={f=5.0}, a={d=11.0}, h={g=5.0, e=0.0}, i={h=5.0}}
+
+residualCapacities
+edgesFrom is {f={e=8.0, i=2.0}, g={t=4.0}, d={e=5.0}, e={b=8.0}, t={}, b={c=2.0, a=6.0}, s={a=1.0}, c={f=2.0}, a={}, h={g=5.0, e=8.0}, i={h=7.0}}
+
+
+test_networkflow_5.sdot
+capacities
+edgesFrom is {d={t=9.0}, t={}, s={c=9.0, a=5.0}, b={d=3.0, t=6.0}, c={d=5.0, b=3.0, a=6.0}, a={b=8.0}}
+
+flow
+edgesFrom is {d={t=8.0}, t={}, b={d=3.0, t=6.0}, s={c=9.0, a=5.0}, c={d=5.0, b=3.0, a=1.0}, a={b=6.0}}
+
+residualCapacities
+edgesFrom is {d={t=1.0}, t={}, b={}, s={}, c={a=5.0}, a={b=2.0}}
+
+
+test_networkflow_6.sdot
+capacities
+edgesFrom is {t={}, s={b=2.0, c=1.0, a=3.0}, b={t=2.0}, c={t=1.0}, a={t=3.0}}
+
+flow
+edgesFrom is {t={}, b={t=2.0}, s={b=2.0, c=1.0, a=3.0}, c={t=1.0}, a={t=3.0}}
+
+residualCapacities
+edgesFrom is {t={}, b={}, s={}, c={}, a={}}
+
+
+test_networkflow_7.sdot
+capacities
+edgesFrom is {d={t=2.0}, t={}, s={a=3.0}, b={t=1.0}, c={d=2.0}, a={b=2.0, c=2.0}}
+
+flow
+edgesFrom is {d={t=2.0}, t={}, b={t=1.0}, s={a=3.0}, c={d=2.0}, a={b=1.0, c=2.0}}
+
+residualCapacities
+edgesFrom is {d={}, t={}, b={}, s={}, c={}, a={b=1.0}}

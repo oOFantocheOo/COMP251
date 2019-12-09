@@ -1,0 +1,14 @@
+Here is the marking scheme used by Mingzhou.
+(Mohamed's marking scheme was slightly different but the grades 
+ should be about the same.)
+
+There were 50 points given for each question.
+
+Comment  is missing                                               -3
+Time complexity is not good enough                                -5
+Program has a slight compilation error that can be fixed easily   -5
+Method has a slight runtime error that can be fixed easily        -5
+Method has a runtime error                                       -20
+Method runs infinitely in a test case                            -20
+Method gives incorrect result, but some work is done         -10~-40
+Method always runs infinitely, but some work is done             -40

@@ -1,0 +1,25 @@
+Marking guide:
+
+-5 for incorrect package
+-50% for compile or run-time errors
+Up to -10 for incorrect indentation
+Up to -10 for lack of comments -> -3 if comments are only above the method
+-10: If output does not match correct output
+
+findAugmentingPath() - 30 points
+5: Run BFS
+15: Get path from t
+10: Path has s and t in correct order
+
+computeBottleneck() - 30 points
+10: Efficient loop to travel down path
+10: Get edges between nodes
+10: Calculate bottleneck beta
+
+augment() - 40 points
+10 - add flow in forward direction
+10 - add flow in backward direction
+10 - update residual capacities in forward direction
+10 - update residual capacities in backward direction
+
+
